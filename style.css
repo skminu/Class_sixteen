@@ -1,0 +1,139 @@
+body{
+    font-family: arial;
+}
+/*Start Header Section*/
+.header_section{
+    background-color: rgb(6, 6, 69);
+}
+
+.logo img{
+    width: 110px;
+}
+
+.main_menu{}
+.main_menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.main_menu ul li{
+    display: inline-block;
+}
+.main_menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 67px;
+    text-decoration: none;
+   
+}
+.main_menu ul li a:hover{}
+
+/*End Header Section*/
+
+/*Start Banner Section*/
+   .banner_section{
+       background: url(./image/backgroud.jpg) no-repeat, center;
+       background-size: cover;
+       padding:  200px 0;
+   }
+   .banner_contant h2{
+       color: #fff;
+   }
+   .banner_contant p{ 
+       color: #fff;
+       padding: 30px 0;
+       font-size: 15px;
+       line-height: 30px;
+    }
+   .banner_contant a{ 
+    color: #fff;
+    padding: 8px 13px;
+    display: inline-block;
+    text-decoration: none;
+    background: #0c8cc1;
+    border: none;
+    border-radius: 5px;}
+
+/*End Banner Section*/
+
+/*Start Service Section*/
+.service_section{
+    padding: 73px 0;
+    background: #b9c0f2;
+}
+.team_item{
+    margin-top: 30px;
+}
+.team_item img{
+    width: 130px;
+}
+.team_item h3{
+    font-size: 15px;
+    margin-top: 7px;
+}
+.team_item p{
+    color: #685d5d;
+    font-size: 13px;
+    padding: 10px;
+}
+.team_item a{
+    text-decoration: none;
+    color: #fff;
+    background: #097baa;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+/*End service Section*/
+
+/*Start About Section*/
+.about_section{
+    padding: 73px 0;
+    background: #c1d3e9;
+}
+.about_heading{
+    margin-bottom: 70px;
+    font-size: 35px;
+}
+.about_img img{
+    width: 120px;
+}
+.first_content p{
+    font-size: 13px;
+    line-height: 10px;
+    color: #252020a1;
+}
+.second_content p{
+    font-size: 13px;
+    margin-top: 20px;
+    color: #252020a1;
+}
+.about_content h4{
+    font-size: 20px;
+    color: #231e1ef2;
+}
+.about_content p{
+    font-size: 13px;
+    color: #252020a1;
+}
+.about_content .last_pera{
+    font-size: 20px;
+    color: #252020a1;
+}
+/*End About Section*/
+
+/*Start Footer Section*/
+.footer_section{
+    background-color: #0000ffc4;
+    padding: 0 40px;
+    margin-top: 30px;
+}
+.footer_section p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+}
+/*End Footer Section*/
